@@ -1,0 +1,71 @@
+body {
+  color: #3f3f3f; }
+
+a {
+  color: #444547;}
+
+.top-menu a {
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-shadow: rgba(227, 227, 227, .6) 1px 2px; 
+}
+
+.top-menu a:hover {
+  color: #c92c2c; }
+
+.top-menu a:active {
+  color: #96132d; }
+
+.top-menu li.active .top-hover,
+.top-menu li:hover .top-hover {
+  background-color: #b22323; }
+
+
+.top-menu li.active a,
+.bottom-menu li.active a {
+  color: #96132d; }
+
+.top-menu li.active .top-hover,
+.top-menu li:hover .top-hover {
+  background-color: #b22323; }
+
+.bg_dark {
+  background-color: #a8a8a8;
+  color: #fff;
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.portfolio_item .port_item_cont a {
+  border-color: #FF6347;
+  color: #FF6347; }
+
+.main_footer a {
+  color: #FF6347; }
+
+.contacts_icon {
+  color: #FF6347; }
+
+.text-danger {
+  color: #FF6347; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #b22323; }
+
+form button {
+  background-color: #b22323;
+  letter-spacing: 0.5px;
+  border-radius: 4px;}
+  
+ form button:hover {
+    background-color: #6d1313;
+  }
+  form button:active {
+    background-color: #c61313;
+  }
+form .form-group {
+  color: #888; }
